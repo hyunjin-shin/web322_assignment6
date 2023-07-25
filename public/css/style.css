@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100vw;
+}
+
+body {
+    max-width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+li a:any-link {
+    font-size: 2rem;
+}
+
+a:any-link {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.header__navbar {
+    background-color: rgb(249, 249, 228);
+    width: 100%;
+    padding: 0px;
+    border-bottom: solid black 1px;
+}
+
+.navbar__container {
+    display: block;
+    overflow: hidden;
+    background-color: rgba(234, 230, 221, 0.362);
+    list-style-type: none;
+}
+
+.nav_item {
+    float: left;
+    padding: 1rem;
+}
+
+.nav__item a {
+    display: block;
+}
+
+.body-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.body-header-item {
+    margin: 2rem;
+    display: inline-block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.btn {
+    display: block;
+    margin: 1rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.25rem;
+    border-style: solid;
+    border-color: black;
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+.btn-success {
+    background-color: aquamarine;
+}
+
+.btn-primary {
+    background-color: rgb(56, 62, 251);
+}
+
+.btn-danger {
+    background-color: red;
+}
+
+a[disabled="disabled"] {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.table-responsive {
+    width: 100%;
+}
+
+.table {
+    width: 100%;
+}
+
+th,
+tr,
+td {
+    text-align: center;
+}
+
+th {
+    font-size: 1.8rem;
+}
